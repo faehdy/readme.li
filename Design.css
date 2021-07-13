@@ -27,3 +27,32 @@ body {
   color: aliceblue;
   font-family: Verdana;
 }
+
+nav{
+  color: #3D3C3C;
+  background-color: aliceblue;
+  text-underline-color: aliceblue;
+}
+
+
+#nav-mobile {list-style-type: none;
+display: inline-block;
+  width: 80%;
+  padding: 0;
+}
+
+.nav-element {display: inline-block;
+width: 30%;
+
+}
+.nav-element > a{text-decoration: none;
+  color: dimgray;
+}
+
+.nav-element > a:hover {border: dimgray;
+  border-style: solid;
+  border-width: 1px;
+  background-color: dimgray;
+  color: aliceblue;
+
+}
